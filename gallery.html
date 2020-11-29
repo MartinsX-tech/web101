@@ -1,0 +1,98 @@
+<script src="gallery.js"></script>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Personal Website -> Gallery</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    
+    <body>
+        <header>
+            <div class="main">
+                <div class="logo">
+                    <img src="logo.png">
+                </div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li class="active"><a href="gallery.html">Gallery</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="title text-center">
+                <h2>You can find pictures down below <br> <br>
+                    ↓ ↓ ↓ ↓ ↓ ↓
+                </h2>
+            </div>
+        </header>
+    </body>
+</html>
+<!-- ----- -->
+            <!-- Container for the image gallery -->
+            <div class="containerOne">
+
+                <!-- Full-width images with number text -->
+                <div class="mySlides">
+                  <div class="numbertext">1 / 6</div>
+                    <img src="images/cat1.jpg" style="width:100%">
+                </div>
+              
+                <div class="mySlides">
+                  <div class="numbertext">2 / 6</div>
+                    <img src="images/dog1.jpg" style="width:100%">
+                </div>
+              
+                <div class="mySlides">
+                  <div class="numbertext">3 / 6</div>
+                    <img src="images/elephant1.jpg" style="width:100%">
+                </div>
+              
+                <div class="mySlides">
+                  <div class="numbertext">4 / 6</div>
+                    <img src="images/hamster1.jpg" style="width:100%">
+                </div>
+              
+                <div class="mySlides">
+                  <div class="numbertext">5 / 6</div>
+                    <img src="images/panda1.jpg" style="width:100%">
+                </div>
+              
+                <div class="mySlides">
+                  <div class="numbertext">6 / 6</div>
+                    <img src="images/turtle1.jpg" style="width:100%">
+                </div>
+              
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+              
+                <!-- Image text -->
+                <div class="caption-container">
+                  <p id="caption"></p>
+                </div>
+              
+                <!-- Thumbnail images -->
+                <div class="row">
+                  <div class="column">
+                    <img class="demo cursor" src="images/cat1.jpg" style="width:100%" onclick="currentSlide(1)" alt="Cat">
+                  </div>
+                  <div class="column">
+                    <img class="demo cursor" src="images/dog1.jpg" style="width:100%" onclick="currentSlide(2)" alt="Dog">
+                  </div>
+                  <div class="column">
+                    <img class="demo cursor" src="images/elephant1.jpg" style="width:100%" onclick="currentSlide(3)" alt="Elephant">
+                  </div>
+                  <div class="column">
+                    <img class="demo cursor" src="images/hamster1.jpg" style="width:100%" onclick="currentSlide(4)" alt="Hamster">
+                  </div>
+                  <div class="column">
+                    <img class="demo cursor" src="images/panda1.jpg" style="width:100%" onclick="currentSlide(5)" alt="Panda">
+                  </div>
+                  <div class="column">
+                    <img class="demo cursor" src="images/turtle1.jpg" style="width:100%" onclick="currentSlide(6)" alt="Turtle">
+                  </div>
+                </div>
+              </div>
+                        <!-- ----- -->
